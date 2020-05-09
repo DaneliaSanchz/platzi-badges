@@ -65,14 +65,13 @@ class BadgeEdit extends React.Component {
     }
     return (
       <React.Fragment>
-        <div className="BadgeNew__hero">
-          <img className="BadgeNew__hero-image img-fluid" src={header} alt="Logo" />
+        <div className="BadgeEdit__hero">
+          <img className="BadgeEdit__hero-image img-fluid" src={header} alt="Logo" />
         </div>
 
         <div className="container">
           <div className="row">
             <div className="col-6">
-              <h1>Edit Attendant</h1>
               <Badge
                 firstName={this.state.form.firstName || 'FIRST_NAME'}
                 lastName={this.state.form.lastName || 'LAST_NAME'}
@@ -84,6 +83,7 @@ class BadgeEdit extends React.Component {
             </div>
 
             <div className="col-6">
+              <h1>Edit Attendant</h1>
               <BadgeForm onChange={this.handleChange} onSubmit={this.handleSubmit} formValues={this.state.form} error={this.state.error} />
             </div>
           </div>
