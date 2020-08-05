@@ -1,7 +1,12 @@
 # 💠 Platzi-badges
 
+Platzi Badges is a platform that allows you to:
 
-Proyecto desarrollado en el curso de React de Platzi.
+* Register participants for the PlatziConf where each registered participant will have a badge.
+* Visualize a list of the all participants.
+* Search a participant.
+* Edit the information of a participant.
+* Delete a participant.
 
 ## 💻 Screens
 
